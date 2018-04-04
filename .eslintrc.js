@@ -21,6 +21,8 @@ module.exports = {
     //强制分号
     'semi': ['error','always'],
     'indent': 0,
-    'space-before-function-paren': 0
+    'space-before-function-paren': 0,
+    //tab和空格混用不警告
+    //'no-mixed-spaces-and-tabs': 0
   }
 }
