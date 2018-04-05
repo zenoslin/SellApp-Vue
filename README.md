@@ -27,4 +27,4 @@
 - 同时尝试使用ES6的语法进行开发。
 
 # About
-这是一个用Vue.js写的外卖WebApp.
+这是一个用Vue.js写的简单型外卖WebApp.
