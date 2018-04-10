@@ -10,9 +10,8 @@ npm run dev
 ```
 
 # How to build on server
+vue项目部署之前需要先配置好webpack打包的css和js路径，否则打包后会出现资源无法引入的空白页。因为项目中用json文件作模拟数据需要使用node.js,先写好文件prod.server.js。
 ```
-vue项目部署之前需要先配置好webpack打包的css和js路径，否则打包后会出现资源无法引入的空白页。
-因为项目中用json文件作模拟数据需要使用node.js。先写好文件prod.server.js。
 npm install
 npm run build
 node prod.server.js
